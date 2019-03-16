@@ -1,4 +1,4 @@
-/* Style the navigation menu */
+/*main nav bar*/
 .topnav {
     position: fixed;
     width: 100%;
@@ -7,9 +7,7 @@
     top: 0;
     transition: top 0.3s;
     font-family: 'Play', sans-serif;
-
 }
-
 /* Navigation links */
 .topnav a {
     float: left;
@@ -23,25 +21,22 @@
     font-family: 'Play', sans-serif;
     font-weight: bold;
 }
-
-/* Add a background color on mouse-over */
+/*mouseover features*/
 .topnav a:hover {
     background-color: #AA3939;
 }
-
-/* Style the current/active link */
+/*active link features*/
 .topnav a.active {
     background-color: #AA3939;
 }
-
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-@media screen and (max-width: 500px) {
-    .topnav a {
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: left; /* If you want the text to be left-aligned on small screens */
-    }
+/*@media screen and (max-width: 500px) {*/
+    /*.topnav a {*/
+        /*float: none;*/
+        /*display: block;*/
+        /*width: 100%;*/
+        /*text-align: left; !* If you want the text to be left-aligned on small screens *!*/
+    /*}*/
 }
 a{
     color: #76276c;
